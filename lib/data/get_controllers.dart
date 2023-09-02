@@ -11,4 +11,5 @@ Future getController()async{
   Get.create(() => HomeController(),permanent : false);
   Get.create(() => RegisterController(),permanent : false);
 
+
 }
