@@ -105,7 +105,7 @@ class RegisterPage extends GetWidget<RegisterController> {
   Widget paswoordVerifyTextField() {
     return TextField(
       obscureText: true,
-      controller: controller.passwordVerifyController,
+       controller: controller.passwordVerifyController,
       decoration: const InputDecoration(
         border: OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(14.0)),
